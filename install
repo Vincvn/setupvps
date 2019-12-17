@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo apt install -y nginx php-fpm php-curl && cp default /etc/nginx/sites-enabled/default && service nginx restart
