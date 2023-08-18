@@ -4,4 +4,5 @@ cd Python-3.8*/
 ./configure --enable-optimizations
 sudo make altinstall
 python3.8 --version
-pip3.8 --version
+wget https://bootstrap.pypa.io/get-pip.py
+python3.8 get-pip.py
